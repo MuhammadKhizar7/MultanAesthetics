@@ -1,0 +1,17 @@
+{
+  "name": "MultanAesthetics",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.2.4",
+    "autoprefixer": "^9.8.6",
+    "gridsome": "^0.7.0",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4",
+    "vue-carousel": "^0.18.0"
+  }
+}
