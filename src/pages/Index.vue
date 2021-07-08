@@ -17,6 +17,7 @@ import RealResult from '@/components/RealResult.vue'
 export default {
   metaInfo: {
     title: 'Hello, world!',
+    metaInfo: {},
   },
   components: {
     Hero,

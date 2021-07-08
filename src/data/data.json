@@ -7,6 +7,11 @@
       "instagram": "instagram.com",
       "twitter": "twitter.com"
     },
+    "appKeys": {
+      "google-key": "AIzaSyClP3_K3ZbLoR0dVtwRthNOmKbhMhVcjb4",
+      "youtube_channalId": "UCsooa4yRKGN_zEE8iknghZA",
+      "fb_key": ""
+    },
     "contactInfo": {
       "phone": "(233) 243 567 3312",
       "whatsapp": "(233) 243 567 3312",
@@ -50,6 +55,12 @@
         "img": "contact_hero.png"
       },
       "about": {
+        "title": "Care Your Skin,",
+        "subtitle": "Care Your Beauty",
+        "description": "Enter your super app's description here... The key is to find the right length. Don't want it to be too long, but then don't want it to be too short so that it looks weird between the title and button below.",
+        "img": "about_hero.png"
+      },
+      "gallery": {
         "title": "Care Your Skin,",
         "subtitle": "Care Your Beauty",
         "description": "Enter your super app's description here... The key is to find the right length. Don't want it to be too long, but then don't want it to be too short so that it looks weird between the title and button below.",
