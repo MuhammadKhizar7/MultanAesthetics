@@ -7,6 +7,10 @@ const tailwindcss = require('tailwindcss')
 const autoprefixer = require('autoprefixer')
 module.exports = {
   siteName: 'Multan Aesthetics',
+  siteUrl: 'https://www.multanaesthetics.com',
+  siteDescription: 'The meta description for homepage',
+  titleTemplate: '%s - Multan Aesthetics',
+  icon: 'src/favicon.png',
   plugins: [],
   css: {
     loaderOptions: {

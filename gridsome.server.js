@@ -27,4 +27,36 @@ module.exports = function(api) {
       console.log(blog)
     }
   })
+  api.createPages(async ({ graphql, createPage }) => {
+    // load data from post API
+    const { data } = await graphql(`
+      {
+        allPosts {
+          edges {
+            node {
+              services {
+                cards {
+                  id
+                  title
+                  description
+                  img
+                }
+              }
+            }
+          }
+        }
+      }
+    `)
+    //  console.log( data.allPosts.edges[0].node.services.cards);
+    // for each content found create a page
+    data.allPosts.edges[0].node.services.cards.forEach((card) => {
+      createPage({
+        path: `/services/${card.id}`,
+        component: './src/templates/Service.vue',
+        context: {
+          id: card.id,
+        },
+      })
+    })
+  })
 }
