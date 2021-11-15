@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <hero :content="aboutHero"></hero>
+    <hero :content="aboutHero" :whatsapp="whatsapp"></hero>
     <about-clinic :content="aboutClinic"></about-clinic>
     <about-doctor :content="aboutDoctor"></about-doctor>
     <testiomonial></testiomonial>
@@ -24,12 +24,14 @@ export default {
       aboutHero: null,
       aboutClinic: null,
       aboutDoctor: null,
+      whatsapp: null,
     }
   },
   created: function() {
     this.aboutHero = this.$page.posts.edges[0].node.hero.about
     this.aboutClinic = this.$page.posts.edges[0].node.clinicInfo
     this.aboutDoctor = this.$page.posts.edges[0].node.doctorInfo
+    this.whatsapp = this.$page.posts.edges[0].node?.contactInfo.whatsapp
   },
 }
 </script>
@@ -47,24 +49,28 @@ query{
         }
       }
       clinicInfo{
-      title, 
-      name,
-      about_1,
-      about_2,
-      about_3,
-      img
-    }
-    doctorInfo{
-      title,
-      subtitle,
-      name,
-      about_1,
-      about_2,
-      about_3,
-      img
+        title, 
+        name,
+        about_1,
+        about_2,
+        about_3,
+        img
       }
+      doctorInfo{
+        title,
+        subtitle,
+        name,
+        about_1,
+        about_2,
+        about_3,
+        img
+        }
+      contactInfo{
+        whatsapp
+      }
+      }
+      
     }
   }
-}
 }
 </page-query>

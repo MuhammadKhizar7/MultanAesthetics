@@ -14,7 +14,7 @@
       <p class="leading-normal mb-4">
         {{ Content.description }}
       </p>
-      <t-button isWhatsapp PhoneNumber="923077460702"></t-button>
+      <t-button isWhatsapp :PhoneNumber="whatsapp"></t-button>
     </div>
     <!--Right Col-->
     <div class="w-full lg:w-1/3 lg:py-0 text-center relative">
@@ -44,6 +44,10 @@ export default {
           img: 'home_hero.png',
         }
       },
+    },
+    whatsapp: {
+      String,
+      whatsapp: '',
     },
   },
 }

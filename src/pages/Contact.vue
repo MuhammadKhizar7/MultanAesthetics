@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <hero :content="contactHero"></hero>
+    <hero :content="contactHero" :whatsapp="contact.whatsapp"></hero>
     <contact-card :content="contact"></contact-card>
     <div>
       <div class="mapouter">
@@ -68,6 +68,7 @@ query{
       address,
       phone,
       whatsapp,
+      whatsappShow,
       email
     }
     }

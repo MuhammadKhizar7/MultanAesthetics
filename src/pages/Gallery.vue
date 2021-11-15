@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <hero :Content="hero"></hero>
+    <hero :Content="hero" :whatsapp="whatsapp"></hero>
     <div class="w-full h-full px-2 py-4 bg-gray-50" v-if="youtubeData">
       <div class="mx-4 md:mx-10 bg-gray-50 text-center">
         <h3 class="text-secondary text-3xl font-thin py-2">
@@ -73,6 +73,7 @@ export default {
       nextPageToken: '',
       key: '',
       channelId: '',
+      whatsapp: '',
     }
   },
   mounted: async function() {
@@ -82,6 +83,7 @@ export default {
     this.hero = this.$page.posts.edges[0].node?.hero?.gallery
     this.key = this.$page.posts.edges[0].node?.appKeys?.google_key
     this.channelId = this.$page.posts.edges[0].node?.appKeys?.youtube_channalId
+    this.whatsapp = this.$page.posts.edges[0].node?.contactInfo.whatsapp
   },
   methods: {
     async apiCall() {
@@ -122,10 +124,13 @@ query{
           img
         }
       }
-       appKeys{
+      appKeys{
       google_key,
       youtube_channalId
-    }
+      }
+      contactInfo{
+          whatsapp
+        }
     }
   }
 }

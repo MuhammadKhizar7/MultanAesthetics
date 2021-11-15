@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <hero :Content="services"></hero>
+    <hero :Content="services" :whatsapp="whatsapp"></hero>
     <service></service>
     <testiomonial></testiomonial>
     <compare></compare>
@@ -19,10 +19,12 @@ export default {
   data: function() {
     return {
       services: null,
+      whatsapp: null,
     }
   },
   created: function() {
     this.services = this.$page.posts.edges[0].node?.hero?.services
+    this.whatsapp = this.$page.posts.edges[0].node?.contactInfo.whatsapp
   },
 }
 </script>
@@ -39,6 +41,9 @@ query{
           img
         }
       }
+       contactInfo{
+          whatsapp
+        }
     }
   }
 }

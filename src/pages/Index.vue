@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <hero :Content="home"></hero>
+    <hero :content="home" :whatsapp="whatsapp"></hero>
     <choose></choose>
     <service :content="services"></service>
     <compare></compare>
@@ -30,11 +30,13 @@ export default {
     return {
       home: null,
       services: null,
+      whatsapp: null,
     }
   },
   created: function() {
     this.home = this.$page.posts.edges[0].node?.hero?.home
     this.services = this.$page.posts.edges[0].node?.services
+    this.whatsapp = this.$page.posts.edges[0].node?.contactInfo.whatsapp
   },
 }
 </script>
@@ -61,6 +63,9 @@ query{
           description
         }
       }
+       contactInfo{
+          whatsapp
+        }
     }
   }
 }
