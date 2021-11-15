@@ -22,7 +22,7 @@
         >
           {{ card.title }}
         </h1>
-        <comparify class="bg-white h-80 w-full" value="45">
+        <comparify class="bg-white h-80 w-full overflow-hidden" value="45">
           <g-image
             slot="first"
             class="h-full object-fill  w-full"
