@@ -195,14 +195,14 @@
         },
         {
           "id": 2,
-          "img_first": "gallery-4-1.jpg",
-          "img_second": "gallery-4-2.jpg",
+          "img_first": "gallery-6-1.jpg",
+          "img_second": "gallery-6-1.jpg",
           "title": "Face Treatment"
         },
         {
           "id": 3,
-          "img_first": "gallery-4-1.jpg",
-          "img_second": "gallery-4-2.jpg",
+          "img_first": "gallery-9-1.jpg",
+          "img_second": "gallery-9-2.jpg",
           "title": "Face Treatment"
         }
       ]

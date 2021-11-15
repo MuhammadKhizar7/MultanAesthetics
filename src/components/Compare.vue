@@ -22,16 +22,16 @@
         >
           {{ card.title }}
         </h1>
-        <comparify class="bg-white h-64 w-full" value="45">
+        <comparify class="bg-white h-80 w-full" value="45">
           <g-image
             slot="first"
-            class="h-64 object-fill  w-full"
+            class="h-full object-fill  w-full"
             :src="require(`!!assets-loader!@images/${card.img_first}`)"
             alt="before"
           />
           <g-image
             slot="second"
-            class="object-fill h-64 w-full"
+            class="object-fill h-80 w-full"
             :src="require(`!!assets-loader!@images/${card.img_second}`)"
             alt="after"
           />
