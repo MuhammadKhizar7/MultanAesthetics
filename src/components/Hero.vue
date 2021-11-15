@@ -7,18 +7,18 @@
     <div
       class="flex flex-col w-full lg:w-1/2 justify-center sm:items-start pt-12 pb-24 px-6 text-white text-center sm:text-left"
     >
-      <p class="font-bold text-4xl md:text-5xl ">{{ Content.title }}</p>
+      <p class="font-bold text-4xl md:text-5xl ">{{ content.title }}</p>
       <h1 class="font-bold text-4xl md:text-5xl mb-4">
-        {{ Content.subtitle }}
+        {{ content.subtitle }}
       </h1>
       <p class="leading-normal mb-4">
-        {{ Content.description }}
+        {{ content.description }}
       </p>
       <t-button isWhatsapp :PhoneNumber="whatsapp"></t-button>
     </div>
     <!--Right Col-->
     <div class="w-full lg:w-1/3 lg:py-0 text-center relative">
-      <g-image :src="require(`!!assets-loader!@images/${Content.img}`)" />
+      <g-image :src="require(`!!assets-loader!@images/${content.img}`)" />
       <g-image
         class="absolute bottom-0 left-0 w-1/2 md:-ml-20 "
         src="~/assets/images/bg_flower2.png"
@@ -32,7 +32,7 @@ import TButton from './TButton.vue'
 export default {
   components: { TButton },
   props: {
-    Content: {
+    content: {
       Object,
       default: () => {
         return {

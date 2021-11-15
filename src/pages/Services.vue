@@ -15,6 +15,7 @@ import RealResult from '../components/RealResult.vue'
 import Service from '../components/Service.vue'
 import Testiomonial from '../components/Testiomonial.vue'
 export default {
+  name: 'services',
   components: { Hero, Service, Compare, RealResult, Testiomonial },
   data: function() {
     return {

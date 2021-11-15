@@ -14,10 +14,10 @@ import Choose from '@/components/Choose.vue'
 import Service from '@/components/Service.vue'
 import Compare from '@/components/Compare.vue'
 import RealResult from '@/components/RealResult.vue'
+
 export default {
   metaInfo: {
     title: 'Hello, world!',
-    metaInfo: {},
   },
   components: {
     Hero,

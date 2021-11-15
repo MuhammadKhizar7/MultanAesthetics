@@ -23,25 +23,42 @@ metadata{
 
 <script>
 export default {
+  data: function() {
+    return {
+      name: '',
+    }
+  },
+  created: function() {
+    this.name = this.$route.name
+      ? this.$route.name
+      : this.$route.path.replace(/\//g, '').replace(/[0-9]/g, '')
+    console.log(this.name)
+  },
   metaInfo() {
     const siteUrl = this.$static.metadata.siteUrl
     const postPath = this.$static.metadata.siteUrl + this.$route.fullPath
     const image = this.$static.allPosts.edges[0].node?.doctorInfo.img
-    const imagePath = (image && `${siteUrl}${image.src}`) || ''
-
+    const imagePath = (image && `${siteUrl}/${image}`) || ''
+    const title = this.$page.posts?.edges[0].node?.hero?.[this.name].title
+      ? this.$page.posts?.edges[0].node?.hero?.[this.name].title
+      : this.$page.allPosts?.edges[0].node?.hero?.[this.name].title
+    const description = this.$page.posts?.edges[0].node?.hero?.[this.name]
+      .description
+      ? this.$page.posts?.edges[0].node?.hero?.[this.name].description
+      : this.$page.allPosts?.edges[0].node?.hero?.[this.name].description
     return {
-      title: this.$page.post.title,
+      title: title,
       meta: [
         {
           key: 'description',
           name: 'description',
-          content: this.$page.post.summary,
+          content: description,
         },
         { key: 'og:url', property: 'og:url', content: `${siteUrl}${postPath}` },
         {
           key: 'og:title',
           property: 'og:title',
-          content: this.$page.post.title,
+          content: title,
         },
         {
           key: 'og:type',
@@ -51,7 +68,7 @@ export default {
         {
           key: 'og:description',
           property: 'og:description',
-          content: this.$page.post.summary,
+          content: description,
         },
         {
           key: 'og:image',
@@ -61,17 +78,17 @@ export default {
         {
           key: 'og:image:width',
           property: 'og:image:width',
-          content: (image && image.size.width) || '',
+          content: 675,
         },
         {
           key: 'og:image:height',
           property: 'og:image:height',
-          content: (image && image.size.height) || '',
+          content: 1200,
         },
         {
           key: 'twitter:description',
           name: 'twitter:description',
-          content: this.$page.post.summary,
+          content: description,
         },
         {
           key: 'twitter:card',
@@ -86,7 +103,7 @@ export default {
         {
           key: 'twitter:title',
           property: 'twitter:title',
-          content: this.$page.post.title,
+          content: title,
         },
       ],
       script: [
@@ -95,12 +112,12 @@ export default {
           json: {
             '@context': 'http://schema.org',
             '@type': 'BlogPosting',
-            description: this.$page.post.description,
-            datePublished: this.$page.post.date,
+            description: description,
+            datePublished: new Date(),
             author: {
               name: this.$static.metadata.author,
             },
-            headline: this.$page.post.title,
+            headline: title,
             image: imagePath,
           },
         },
