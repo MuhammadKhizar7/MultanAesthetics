@@ -1,7 +1,7 @@
 <template>
   <!--Hero-->
   <div
-    class="container mx-auto flex flex-col md:flex-row items-center  bg-primary-light bg-hero-pattern bg-no-repeat bg-center xl:bg-img-postion bg-cover"
+    class="mx-auto flex flex-col md:flex-row items-center  bg-primary-light bg-hero-pattern bg-no-repeat bg-center xl:bg-img-postion bg-cover w-full"
   >
     <!--Left Col-->
     <div

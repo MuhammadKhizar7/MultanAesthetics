@@ -2,10 +2,12 @@
   {
     "webInfo": {
       "name": "Multan Aesthetics",
-      "fb": "facebook.com",
-      "youtube": "youtube.com",
-      "instagram": "instagram.com",
-      "twitter": "twitter.com"
+      "url": "https://www.multanaesthetics.com",
+      "description": "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.",
+      "fb": "https://www.facebook.com",
+      "youtube": "https://www.youtube.com",
+      "instagram": "https://www.instagram.com",
+      "twitter": "https://www.twitter.com"
     },
     "appKeys": {
       "google-key": "AIzaSyClP3_K3ZbLoR0dVtwRthNOmKbhMhVcjb4",

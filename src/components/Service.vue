@@ -1,6 +1,6 @@
 <template>
   <!-- services -->
-  <div class="contianer w-full px-2 py-4 bg-gray-50">
+  <div class="w-full px-2 py-4 bg-gray-50">
     <!-- heading -->
     <div class="text-center pb-10">
       <h2 class="text-gray-500 text-3xl font-thin">

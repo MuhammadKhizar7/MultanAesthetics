@@ -1,5 +1,5 @@
 <template>
-  <div class="container bg-black text-white pt-10">
+  <div class="bg-black text-white pt-10">
     <div class="grid grid-cols-1 md:grid-cols-4 gap-10 p-10">
       <div class="col-span-2 p-5 md:ml-10">
         <div class="flex">

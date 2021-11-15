@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <div class="grid grid-cols-1 md:grid-cols-3">
       <div>
         <g-image class="w-full h-full" src="~/assets/images/client.jpg" />

@@ -15,8 +15,10 @@
 import TheFooter from '@/components/TheFooter.vue'
 import FbChat from '../components/FbChat.vue'
 import TheHeader from '../components/TheHeader.vue'
+import PostSeo from '../mixins/SEO.vue'
 
 export default {
+  // mixins: [PostSeo],
   components: {
     TheFooter,
     FbChat,

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <div class="grid grid-cols-1 md:grid-cols-4">
       <div class="col-span-3 bg-primary p-5 md:p-20 text-white flex">
         <div class="mx-4 md:mx-10">

@@ -5,13 +5,27 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 const tailwindcss = require('tailwindcss')
 const autoprefixer = require('autoprefixer')
+const Blogs = require('./src/data/data.json')
 module.exports = {
-  siteName: 'Multan Aesthetics',
-  siteUrl: 'https://www.multanaesthetics.com',
-  siteDescription: 'The meta description for homepage',
-  titleTemplate: '%s - Multan Aesthetics',
+  siteName: Blogs[0].webInfo.name,
+  siteUrl: process.env.DEPLOY_URL || Blogs[0].webInfo.url,
+  siteDescription: Blogs[0].webInfo.description,
+  titleTemplate: '%s - ' + Blogs[0].webInfo.name,
+  metadata: {
+    twitter: {
+      site: '@simon_mannes',
+      creator: '@simon_mannes',
+    },
+  },
   icon: 'src/favicon.png',
-  plugins: [],
+  plugins: [
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        exclude: ['/privacy', '/legal'],
+      },
+    },
+  ],
   css: {
     loaderOptions: {
       postcss: {
