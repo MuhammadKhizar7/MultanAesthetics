@@ -54,7 +54,7 @@ export default {
           name: 'description',
           content: description,
         },
-        { key: 'og:url', property: 'og:url', content: `${siteUrl}${postPath}` },
+        { key: 'og:url', property: 'og:url', content: `${postPath}` },
         {
           key: 'og:title',
           property: 'og:title',
