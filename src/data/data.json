@@ -4,9 +4,9 @@
       "name": "Multan Aesthetics",
       "url": "https://www.multanaesthetics.com",
       "description": "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.",
-      "fb": "https://www.facebook.com",
+      "fb": "https://www.facebook.com/MultanAesthetics",
       "youtube": "https://www.youtube.com",
-      "instagram": "https://www.instagram.com",
+      "instagram": "https://www.instagram.com/multanaesthetics/",
       "twitter": "https://www.twitter.com"
     },
     "appKeys": {
@@ -15,11 +15,12 @@
       "fb_key": ""
     },
     "contactInfo": {
-      "phone": "(233) 243 567 3312",
-      "whatsappShow": "(233) 243 567 3312",
-      "whatsapp": "923007654321",
-      "email": "verra@mail.com",
-      "address": "38, Maple Circle, Simivalley, Sanco – 1234 567"
+      "phone": "(0300) 7736211",
+      "whatsappShow": "(332) 0709526",
+      "whatsapp": "+923320709526",
+      "email": "Multan.aesthetic@gmail.com",
+      "address": "512/C, Multan Aesthetics near Ladies Fatima Jinnah Park (3.75 km) 60000 Multan, Punjab, Pakistan",
+      "postalCode": "60000"
     },
     "doctorInfo": {
       "title": "MEET OUR DOCTOR",
@@ -197,7 +198,7 @@
         {
           "id": 2,
           "img_first": "gallery-6-1.jpg",
-          "img_second": "gallery-6-1.jpg",
+          "img_second": "gallery-6-2.jpg",
           "title": "Face Treatment"
         },
         {

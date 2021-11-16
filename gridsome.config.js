@@ -13,8 +13,8 @@ module.exports = {
   titleTemplate: '%s - ' + Blogs[0].webInfo.name,
   metadata: {
     twitter: {
-      site: '@simon_mannes',
-      creator: '@simon_mannes',
+      site: '@Multan_Aesthetics',
+      creator: '@Multan_Aesthetics',
     },
   },
   icon: 'src/favicon.png',

@@ -1,19 +1,32 @@
 <static-query>
-query{
-metadata{
-  siteName,
-  siteDescription,
-  siteUrl,
-  twitter{
-    site,
-    creator
+query {
+  metadata {
+    siteName
+    siteDescription
+    siteUrl
+    twitter {
+      site
+      creator
+    }
   }
-}
- allPosts{
-    edges{
-      node{
-        doctorInfo{
+  allPosts {
+    edges {
+      node {
+        doctorInfo {
           img
+        }
+        contactInfo {
+          phone
+          whatsapp
+          email
+          address
+          postalCode
+        }
+        webInfo {
+          fb
+          youtube
+          instagram
+          twitter
         }
       }
     }
@@ -32,9 +45,10 @@ export default {
     this.name = this.$route.name
       ? this.$route.name
       : this.$route.path.replace(/\//g, '').replace(/[0-9]/g, '')
-    console.log(this.name)
   },
   metaInfo() {
+    const webInfo = this.$static.allPosts?.edges[0].node?.webInfo
+    const contactInfo = this.$static.allPosts?.edges[0].node?.contactInfo
     const siteUrl = this.$static.metadata.siteUrl
     const postPath = this.$static.metadata.siteUrl + this.$route.fullPath
     const image = this.$static.allPosts.edges[0].node?.doctorInfo.img
@@ -111,14 +125,44 @@ export default {
           type: 'application/ld+json',
           json: {
             '@context': 'http://schema.org',
-            '@type': 'BlogPosting',
-            description: description,
-            datePublished: new Date(),
-            author: {
-              name: this.$static.metadata.author,
-            },
-            headline: title,
+            '@type': 'Dermatology',
+            name: this.$static.metadata.siteName,
             image: imagePath,
+            description: description,
+            '@id': siteUrl,
+            url: siteUrl,
+            telephone: contactInfo.phone,
+            address: {
+              '@type': 'PostalAddress',
+              streetAddress: contactInfo.address,
+              addressLocality: contactInfo.address,
+              postalCode: contactInfo.postalCode,
+              addressCountry: 'Pakistan',
+            },
+            geo: {
+              '@type': 'GeoCoordinates',
+              latitude: 30.2264512,
+              longitude: 71.4739066,
+            },
+            openingHoursSpecification: {
+              '@type': 'OpeningHoursSpecification',
+              dayOfWeek: [
+                'Monday',
+                'Tuesday',
+                'Wednesday',
+                'Thursday',
+                'Friday',
+                'Saturday',
+              ],
+              opens: '3pm',
+              closes: '1am',
+            },
+            sameAs: [
+              webInfo.fb,
+              webInfo.youtube,
+              webInfo.twitter,
+              webInfo.instagram,
+            ],
           },
         },
       ],
