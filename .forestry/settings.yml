@@ -10,7 +10,7 @@ sections:
 upload_dir: images
 public_path: "/static/images"
 front_matter_path: src/assets/images
-use_front_matter_path: false
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_output_directory: dist
