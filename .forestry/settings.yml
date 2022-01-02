@@ -8,7 +8,7 @@ sections:
   path: src/data/data.json
   label: Content
 upload_dir: images
-public_path: "/static"
+public_path: "/static/images"
 front_matter_path: src/assets/images
 use_front_matter_path: false
 file_template: ":filename:"
