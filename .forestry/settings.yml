@@ -9,8 +9,8 @@ sections:
   label: Content
 upload_dir: images
 public_path: "/src/assets/images"
-front_matter_path: ''
-use_front_matter_path: false
+front_matter_path: "/src/assets/images"
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   install_dependencies_command: npm install
