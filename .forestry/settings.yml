@@ -7,7 +7,7 @@ sections:
 - type: document
   path: src/data/data.json
   label: Content
-upload_dir: images
+upload_dir: src/assets/images
 public_path: assets/static
 front_matter_path: src/assets/images
 use_front_matter_path: true
