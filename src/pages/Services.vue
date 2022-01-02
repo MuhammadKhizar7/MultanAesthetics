@@ -1,7 +1,7 @@
 <template>
   <Layout>
-    <hero :Content="services" :whatsapp="whatsapp"></hero>
-    <service></service>
+    <hero :content="heroServices" :whatsapp="whatsapp"></hero>
+    <service :content="services"></service>
     <testiomonial></testiomonial>
     <compare></compare>
     <real-result></real-result>
@@ -19,13 +19,15 @@ export default {
   components: { Hero, Service, Compare, RealResult, Testiomonial },
   data: function() {
     return {
+      heroServices: null,
       services: null,
       whatsapp: null,
     }
   },
   created: function() {
-    this.services = this.$page.posts.edges[0].node?.hero?.services
+    this.heroServices = this.$page.posts.edges[0].node?.hero?.services
     this.whatsapp = this.$page.posts.edges[0].node?.contactInfo.whatsapp
+    this.services = this.$page.posts.edges[0].node?.services
   },
 }
 </script>
@@ -45,6 +47,16 @@ query{
        contactInfo{
           whatsapp
         }
+        services{
+        title,
+        subtitle
+        cards{
+          id,
+          img,
+          title,
+          description
+        }
+      }
     }
   }
 }
