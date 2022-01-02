@@ -12,15 +12,13 @@
     "appKeys": {
       "google-key": "AIzaSyClP3_K3ZbLoR0dVtwRthNOmKbhMhVcjb4",
       "youtube_channalId": "UCsooa4yRKGN_zEE8iknghZA",
-      "fb_key": ""
+      "fb_key": " "
     },
     "contactInfo": {
       "phone": "(0300) 7736211",
       "whatsappShow": "(332) 0709526",
       "whatsapp": "+923320709526",
       "email": "Multan.aesthetic@gmail.com",
-      "address": "512/C, Multan Aesthetics near Ladies Fatima Jinnah Park (3.75 km) 60000 Multan, Punjab, Pakistan",
-      "postalCode": "60000"
     },
     "doctorInfo": {
       "title": "MEET OUR DOCTOR",
@@ -77,22 +75,22 @@
       "img": "choose_us.png",
       "points": [
         {
-          "id": 1,
+          "id": "1",
           "title": "20 Years Of Dermatology Experience",
           "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit."
         },
         {
-          "id": 2,
+          "id": "2",
           "title": "A Leader In Dermatologic Care",
           "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit."
         },
         {
-          "id": 3,
+          "id": "3",
           "title": "Clinical Dermatology Research",
           "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit."
         },
         {
-          "id": 4,
+          "id": "4",
           "title": "Skilled, experienced medical providers",
           "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit."
         }
@@ -103,7 +101,7 @@
       "subtitle": "HEALTHY SKIN AND NATURAL",
       "cards": [
         {
-          "id": 1,
+          "id": "3",
           "img": "card_1.jpg",
           "subtitle": "We Provide Service",
           "title": "Face Treatment",
@@ -112,25 +110,13 @@
           "description_2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit.",
           "points": [
             {
-              "id": 1,
+              "id": "1",
               "title": "20 Years Of Dermatology Experience"
-            },
-            {
-              "id": 2,
-              "title": "A Leader In Dermatologic Care"
-            },
-            {
-              "id": 3,
-              "title": "Clinical Dermatology Research"
-            },
-            {
-              "id": 4,
-              "title": "Skilled, experienced medical providers"
             }
           ]
         },
         {
-          "id": 2,
+          "id": "2",
           "img": "card_1.jpg",
           "subtitle": "We Provide Service",
           "title": "Face Treatment",
@@ -139,25 +125,21 @@
           "description_2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit.",
           "points": [
             {
-              "id": 1,
+              "id": "3",
+              "title": " Clinical Dermatology Research"
+            },
+            {
+              "id": "1",
               "title": "20 Years Of Dermatology Experience"
             },
             {
-              "id": 2,
-              "title": "A Leader In Dermatologic Care"
-            },
-            {
-              "id": 3,
-              "title": "Clinical Dermatology Research"
-            },
-            {
-              "id": 4,
-              "title": "Skilled, experienced medical providers"
+              "id": "2",
+              "title": " A Leader In Dermatologic Care"
             }
           ]
         },
         {
-          "id": 3,
+          "id": "1",
           "img": "card_1.jpg",
           "subtitle": "We Provide Service",
           "title": "Face Treatment",
@@ -166,20 +148,20 @@
           "description_2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit.",
           "points": [
             {
-              "id": 1,
-              "title": "20 Years Of Dermatology Experience"
+              "id": "4",
+              "title": "Skilled, experienced medical providers"
             },
             {
-              "id": 2,
-              "title": "A Leader In Dermatologic Care"
-            },
-            {
-              "id": 3,
+              "id": "3",
               "title": "Clinical Dermatology Research"
             },
             {
-              "id": 4,
-              "title": "Skilled, experienced medical providers"
+              "id": "2",
+              "title": "A Leader In Dermatologic Care"
+            },
+            {
+              "id": "1",
+              "title": "20 Years Of Dermatology Experience"
             }
           ]
         }
@@ -190,19 +172,19 @@
       "subtitle": "DESIRED PROCEDURE TO BEGIN",
       "cards": [
         {
-          "id": 1,
+          "id": "1",
           "img_first": "gallery-4-1.jpg",
           "img_second": "gallery-4-2.jpg",
           "title": "Face Treatment"
         },
         {
-          "id": 2,
+          "id": "2",
           "img_first": "gallery-6-1.jpg",
           "img_second": "gallery-6-2.jpg",
           "title": "Face Treatment"
         },
         {
-          "id": 3,
+          "id": "3",
           "img_first": "gallery-9-1.jpg",
           "img_second": "gallery-9-2.jpg",
           "title": "Face Treatment"
@@ -222,19 +204,19 @@
       "subtitle": "Benefits",
       "reviews": [
         {
-          "id": 1,
+          "id": "3",
           "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.",
           "name": "John Doe",
           "img": "client_profile.jpg"
         },
         {
-          "id": 2,
+          "id": "2",
           "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.",
           "name": "John Doe",
           "img": "client_profile.jpg"
         },
         {
-          "id": 3,
+          "id": "1",
           "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.",
           "name": "John Doe",
           "img": "client_profile.jpg"
