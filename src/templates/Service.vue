@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <hero :Content="hero"></hero>
+    <hero :Content="hero" :whatsapp="whatsapp"></hero>
     <div class="contianer w-full  bg-secondary-light px-4 pb-10 pt-5">
       <div class="grid grid-cols-1 md:grid-cols-3">
         <!-- card -->
@@ -58,33 +58,39 @@ export default {
     hero: function() {
       return this.$page.allPosts.edges[0].node?.hero.services
     },
+    whatsapp: function() {
+      return this.$page.allPosts.edges[0].node?.contactInfo.whatsapp
+    },
   },
 }
 </script>
 <page-query>
-query{
-  allPosts{
-    edges{
-      node{
-           hero{
-          services{
-            title,
-            subtitle,
-            description,
+query {
+  allPosts {
+    edges {
+      node {
+        hero {
+          services {
+            title
+            subtitle
+            description
             img
           }
         }
-        services{
-          cards{
-            id,
+        contactInfo {
+          whatsapp
+        }
+        services {
+          cards {
+            id
             subtitle
-            title,
-            description,
-            description_1,
-            description_2,
-            img,
-            points{
-              id,
+            title
+            description
+            description_1
+            description_2
+            img
+            points {
+              id
               title
             }
           }
