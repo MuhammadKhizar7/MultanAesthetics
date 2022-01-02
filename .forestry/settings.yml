@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: src/data
+  path: src/data/data.json
   label: Content
 upload_dir: images
 public_path: "/src/assets/images"
