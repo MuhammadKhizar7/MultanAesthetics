@@ -2,340 +2,343 @@
 label: Content
 hide_body: true
 fields:
-- type: field_group_list
-  name: Data
-  label: Data
-  fields:
-  - type: field_group
-    name: webInfo
-    label: webInfo
+  - type: field_group_list
+    name: Data
+    label: Data
     fields:
-    - type: text
-      name: name
-      label: name
-    - type: text
-      name: url
-      label: url
-    - type: textarea
-      name: description
-      label: description
-    - type: text
-      name: fb
-      label: fb
-    - type: text
-      name: youtube
-      label: youtube
-    - type: text
-      name: instagram
-      label: instagram
-    - type: text
-      name: twitter
-      label: twitter
-  - type: field_group
-    name: appKeys
-    label: appKeys
-    fields:
-    - type: text
-      name: google-key
-      label: google-key
-    - type: text
-      name: youtube_channalId
-      label: youtube_channalId
-    - type: text
-      name: fb_key
-      label: fb_key
-  - type: field_group
-    name: contactInfo
-    label: contactInfo
-    fields:
-    - type: text
-      name: phone
-      label: phone
-    - type: text
-      name: whatsappShow
-      label: whatsappShow
-    - type: text
-      name: whatsapp
-      label: whatsapp
-    - type: text
-      name: email
-      label: email
-    - type: text
-      name: address
-      label: address
-  - type: field_group
-    name: doctorInfo
-    label: doctorInfo
-    fields:
-    - type: text
-      name: title
-      label: title
-    - type: text
-      name: subtitle
-      label: subtitle
-    - type: text
-      name: name
-      label: name
-    - type: file
-      name: img
-      label: img
-    - type: textarea
-      name: about_1
-      label: about_1
-    - type: textarea
-      name: about_2
-      label: about_2
-    - type: textarea
-      name: about_3
-      label: about_3
-  - type: field_group
-    name: clinicInfo
-    label: clinicInfo
-    fields:
-    - type: text
-      name: title
-      label: title
-    - type: text
-      name: name
-      label: name
-    - type: file
-      name: img
-      label: img
-    - type: textarea
-      name: about_1
-      label: about_1
-    - type: textarea
-      name: about_2
-      label: about_2
-    - type: textarea
-      name: about_3
-      label: about_3
-  - type: field_group
-    name: hero
-    label: hero
-    fields:
-    - type: field_group
-      name: home
-      label: home
-      fields:
-      - type: text
-        name: title
-        label: title
-      - type: text
-        name: subtitle
-        label: subtitle
-      - type: textarea
-        name: description
-        label: description
-      - type: file
-        name: img
-        label: img
-    - type: field_group
-      name: services
-      label: services
-      fields:
-      - type: text
-        name: title
-        label: title
-      - type: text
-        name: subtitle
-        label: subtitle
-      - type: textarea
-        name: description
-        label: description
-      - type: file
-        name: img
-        label: img
-    - type: field_group
-      name: contact
-      label: contact
-      fields:
-      - type: text
-        name: title
-        label: title
-      - type: text
-        name: subtitle
-        label: subtitle
-      - type: textarea
-        name: description
-        label: description
-      - type: file
-        name: img
-        label: img
-    - type: field_group
-      name: about
-      label: about
-      fields:
-      - type: text
-        name: title
-        label: title
-      - type: text
-        name: subtitle
-        label: subtitle
-      - type: textarea
-        name: description
-        label: description
-      - type: file
-        name: img
-        label: img
-    - type: field_group
-      name: gallery
-      label: gallery
-      fields:
-      - type: text
-        name: title
-        label: title
-      - type: text
-        name: subtitle
-        label: subtitle
-      - type: textarea
-        name: description
-        label: description
-      - type: file
-        name: img
-        label: img
-  - type: field_group
-    name: chooseUs
-    label: chooseUs
-    fields:
-    - type: text
-      name: title
-      label: title
-    - type: text
-      name: subtitle
-      label: subtitle
-    - type: file
-      name: img
-      label: img
-    - type: field_group_list
-      name: points
-      label: points
-      fields:
-      - type: number
-        name: id
-        label: id
-      - type: text
-        name: title
-        label: title
-      - type: textarea
-        name: description
-        label: description
-  - type: field_group
-    name: services
-    label: services
-    fields:
-    - type: text
-      name: title
-      label: title
-    - type: text
-      name: subtitle
-      label: subtitle
-    - type: field_group_list
-      name: cards
-      label: cards
-      fields:
-      - type: number
-        name: id
-        label: id
-      - type: file
-        name: img
-        label: img
-      - type: text
-        name: subtitle
-        label: subtitle
-      - type: text
-        name: title
-        label: title
-      - type: textarea
-        name: description
-        label: description
-      - type: textarea
-        name: description_1
-        label: description_1
-      - type: textarea
-        name: description_2
-        label: description_2
-      - type: field_group_list
-        name: points
-        label: points
+      - type: field_group
+        name: webInfo
+        label: webInfo
         fields:
-        - type: number
-          name: id
-          label: id
-        - type: text
-          name: title
-          label: title
-  - type: field_group
-    name: compare
-    label: compare
-    fields:
-    - type: text
-      name: title
-      label: title
-    - type: text
-      name: subtitle
-      label: subtitle
-    - type: field_group_list
-      name: cards
-      label: cards
-      fields:
-      - type: number
-        name: id
-        label: id
-      - type: file
-        name: img_first
-        label: img_first
-      - type: file
-        name: img_second
-        label: img_second
-      - type: text
-        name: title
-        label: title
-  - type: field_group
-    name: realResult
-    label: realResult
-    fields:
-    - type: text
-      name: title
-      label: title
-    - type: text
-      name: subtitle
-      label: subtitle
-    - type: textarea
-      name: description
-      label: description
-    - type: text
-      name: phoneNumber
-      label: phoneNumber
-    - type: text
-      name: videoId
-      label: videoId
-    - type: file
-      name: img
-      label: img
-  - type: field_group
-    name: clientReviews
-    label: clientReviews
-    fields:
-    - type: text
-      name: title
-      label: title
-    - type: text
-      name: subtitle
-      label: subtitle
-    - type: field_group_list
-      name: reviews
-      label: reviews
-      fields:
-      - type: number
-        name: id
-        label: id
-      - type: textarea
-        name: message
-        label: message
-      - type: text
-        name: name
-        label: name
-      - type: file
-        name: img
-        label: img
+          - type: text
+            name: name
+            label: name
+          - type: text
+            name: url
+            label: url
+          - type: textarea
+            name: description
+            label: description
+          - type: text
+            name: fb
+            label: fb
+          - type: text
+            name: youtube
+            label: youtube
+          - type: text
+            name: instagram
+            label: instagram
+          - type: text
+            name: twitter
+            label: twitter
+      - type: field_group
+        name: appKeys
+        label: appKeys
+        fields:
+          - type: text
+            name: google-key
+            label: google-key
+          - type: text
+            name: youtube_channalId
+            label: youtube_channalId
+          - type: text
+            name: fb_key
+            label: fb_key
+      - type: field_group
+        name: contactInfo
+        label: contactInfo
+        fields:
+          - type: text
+            name: phone
+            label: phone
+          - type: text
+            name: whatsappShow
+            label: whatsappShow
+          - type: text
+            name: whatsapp
+            label: whatsapp
+          - type: text
+            name: email
+            label: email
+          - type: text
+            name: address
+            label: address
+          - type: text
+            name: postalCode
+            label: postalCode
+      - type: field_group
+        name: doctorInfo
+        label: doctorInfo
+        fields:
+          - type: text
+            name: title
+            label: title
+          - type: text
+            name: subtitle
+            label: subtitle
+          - type: text
+            name: name
+            label: name
+          - type: file
+            name: img
+            label: img
+          - type: textarea
+            name: about_1
+            label: about_1
+          - type: textarea
+            name: about_2
+            label: about_2
+          - type: textarea
+            name: about_3
+            label: about_3
+      - type: field_group
+        name: clinicInfo
+        label: clinicInfo
+        fields:
+          - type: text
+            name: title
+            label: title
+          - type: text
+            name: name
+            label: name
+          - type: file
+            name: img
+            label: img
+          - type: textarea
+            name: about_1
+            label: about_1
+          - type: textarea
+            name: about_2
+            label: about_2
+          - type: textarea
+            name: about_3
+            label: about_3
+      - type: field_group
+        name: hero
+        label: hero
+        fields:
+          - type: field_group
+            name: home
+            label: home
+            fields:
+              - type: text
+                name: title
+                label: title
+              - type: text
+                name: subtitle
+                label: subtitle
+              - type: textarea
+                name: description
+                label: description
+              - type: file
+                name: img
+                label: img
+          - type: field_group
+            name: services
+            label: services
+            fields:
+              - type: text
+                name: title
+                label: title
+              - type: text
+                name: subtitle
+                label: subtitle
+              - type: textarea
+                name: description
+                label: description
+              - type: file
+                name: img
+                label: img
+          - type: field_group
+            name: contact
+            label: contact
+            fields:
+              - type: text
+                name: title
+                label: title
+              - type: text
+                name: subtitle
+                label: subtitle
+              - type: textarea
+                name: description
+                label: description
+              - type: file
+                name: img
+                label: img
+          - type: field_group
+            name: about
+            label: about
+            fields:
+              - type: text
+                name: title
+                label: title
+              - type: text
+                name: subtitle
+                label: subtitle
+              - type: textarea
+                name: description
+                label: description
+              - type: file
+                name: img
+                label: img
+          - type: field_group
+            name: gallery
+            label: gallery
+            fields:
+              - type: text
+                name: title
+                label: title
+              - type: text
+                name: subtitle
+                label: subtitle
+              - type: textarea
+                name: description
+                label: description
+              - type: file
+                name: img
+                label: img
+      - type: field_group
+        name: chooseUs
+        label: chooseUs
+        fields:
+          - type: text
+            name: title
+            label: title
+          - type: text
+            name: subtitle
+            label: subtitle
+          - type: file
+            name: img
+            label: img
+          - type: field_group_list
+            name: points
+            label: points
+            fields:
+              - type: number
+                name: id
+                label: id
+              - type: text
+                name: title
+                label: title
+              - type: textarea
+                name: description
+                label: description
+      - type: field_group
+        name: services
+        label: services
+        fields:
+          - type: text
+            name: title
+            label: title
+          - type: text
+            name: subtitle
+            label: subtitle
+          - type: field_group_list
+            name: cards
+            label: cards
+            fields:
+              - type: number
+                name: id
+                label: id
+              - type: file
+                name: img
+                label: img
+              - type: text
+                name: subtitle
+                label: subtitle
+              - type: text
+                name: title
+                label: title
+              - type: textarea
+                name: description
+                label: description
+              - type: textarea
+                name: description_1
+                label: description_1
+              - type: textarea
+                name: description_2
+                label: description_2
+              - type: field_group_list
+                name: points
+                label: points
+                fields:
+                  - type: number
+                    name: id
+                    label: id
+                  - type: text
+                    name: title
+                    label: title
+      - type: field_group
+        name: compare
+        label: compare
+        fields:
+          - type: text
+            name: title
+            label: title
+          - type: text
+            name: subtitle
+            label: subtitle
+          - type: field_group_list
+            name: cards
+            label: cards
+            fields:
+              - type: number
+                name: id
+                label: id
+              - type: file
+                name: img_first
+                label: img_first
+              - type: file
+                name: img_second
+                label: img_second
+              - type: text
+                name: title
+                label: title
+      - type: field_group
+        name: realResult
+        label: realResult
+        fields:
+          - type: text
+            name: title
+            label: title
+          - type: text
+            name: subtitle
+            label: subtitle
+          - type: textarea
+            name: description
+            label: description
+          - type: text
+            name: phoneNumber
+            label: phoneNumber
+          - type: text
+            name: videoId
+            label: videoId
+          - type: file
+            name: img
+            label: img
+      - type: field_group
+        name: clientReviews
+        label: clientReviews
+        fields:
+          - type: text
+            name: title
+            label: title
+          - type: text
+            name: subtitle
+            label: subtitle
+          - type: field_group_list
+            name: reviews
+            label: reviews
+            fields:
+              - type: number
+                name: id
+                label: id
+              - type: textarea
+                name: message
+                label: message
+              - type: text
+                name: name
+                label: name
+              - type: file
+                name: img
+                label: img
