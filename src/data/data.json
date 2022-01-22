@@ -174,12 +174,6 @@
       "subtitle": "DESIRED PROCEDURE TO BEGIN",
       "cards": [
         {
-          "id": "4",
-          "img_first": "",
-          "img_second": "",
-          "title": "Fue Hair Transplant"
-        },
-        {
           "id": "1",
           "img_first": "gallery-4-1.jpg",
           "img_second": "gallery-4-2.jpg",
@@ -196,6 +190,12 @@
           "img_first": "gallery-9-1.jpg",
           "img_second": "gallery-9-2.jpg",
           "title": "Acne Treatment"
+        },
+        {
+          "id": "4",
+          "img_first": "",
+          "img_second": "",
+          "title": "Fue Hair Transplant"
         }
       ]
     },
