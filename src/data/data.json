@@ -106,10 +106,10 @@
           "id": "3",
           "img": "card_1.jpg",
           "subtitle": "We Provide Service",
-          "title": "Face Treatment",
-          "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit.",
-          "description_1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit.",
-          "description_2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit.",
+          "title": "Acne Treatment",
+          "description": "Acne is a skin condition that occurs when your hair follicles become plugged with oil and dead skin cells. It causes whiteheads, blackheads or pimples. Acne is most common among teenagers, though it affects people of all ages.",
+          "description_1": "Acne typically appears on your face, forehead, chest, upper back and shoulders because these areas of skin have the most oil (sebaceous) glands. Hair follicles are connected to oil glands.",
+          "description_2": "Effective acne treatments are available, but acne can be persistent. The pimples and bumps heal slowly, and when one begins to go away, others seem to crop up.",
           "points": [
             {
               "id": "1",
@@ -121,10 +121,10 @@
           "id": "2",
           "img": "card_1.jpg",
           "subtitle": "We Provide Service",
-          "title": "Face Treatment",
-          "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit.",
-          "description_1": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit.",
-          "description_2": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit.",
+          "title": "PRP for  Hair",
+          "description": "PRP treatment is a three-step process that uses the platelet-rich plasma found in your blood to promote natural hair growth in the scalp. ",
+          "description_1": "Your blood is drawn — typically from your arm — and put into a centrifuge (a machine that spins rapidly to separate fluids of different densities).",
+          "description_2": "The platelet-rich plasma is drawn up into a syringe and then injected into areas of the scalp that need increased hair growth.",
           "points": [
             {
               "id": "3",
