@@ -25,11 +25,11 @@
     "doctorInfo": {
       "title": "MEET OUR DOCTOR",
       "subtitle": "Best Skin Specialist and Best Aesthetic Dermatologist",
-      "name": "DR. Kabir",
+      "name": "DR.Muhammad Kabir",
       "img": "about-doctor.jpg",
-      "about_1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea",
-      "about_2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea",
-      "about_3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea"
+      "about_1": "If you’re concerned about a dermatological issue, let us help. Whether your concern involves acne, a rash, or skin cancer removal, we can ensure the healthy skin you deserve.",
+      "about_2": "Facial wrinkles, frown lines, crows’ feet, age spots, or a tattoo you are not happy with? We can help, and we have the full range of services you’re seeking.",
+      "about_3": "Now is the time to take care of yourself. Give yourself the gift of health this holiday season with no, to little to no out-of-pocket expense. "
     },
     "clinicInfo": {
       "title": "INTRODUCTION",
@@ -78,23 +78,23 @@
       "points": [
         {
           "id": "1",
-          "title": "20 Years Of Dermatology Experience",
-          "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit."
+          "title": "7 Years Of Dermatology Experience",
+          "description": "Highly-skilled & experienced dermatologist. Adults & kids welcome. Medical, surgical and cosmetic dermatology care."
         },
         {
           "id": "2",
           "title": "A Leader In Dermatologic Care",
-          "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit."
+          "description": "we are proud to be experts in the most advanced dermatological treatments for a wide range of skin conditions. Whether you have acne, skin cancer or a cosmetic skin care concern, our team of award winning physicians and staff is ready to assist you."
         },
         {
           "id": "3",
           "title": "Clinical Dermatology Research",
-          "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit."
+          "description": "At Multan Aesthetics Clinic, the Department of Dermatology provides top-line clinical care to patients with all stages of skin diseases."
         },
         {
           "id": "4",
           "title": "Skilled, experienced medical providers",
-          "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia numquam quod voluptatem doloribus impedit."
+          "description": "Good clinical diagnostic skills, providing a high standard of care, communicating well, a commitment to cascading knowledge and skills. "
         }
       ]
     },
@@ -205,6 +205,12 @@
       "title": "Care Your Skin,",
       "subtitle": "Benefits",
       "reviews": [
+        {
+          "id": "4",
+          "message": "",
+          "name": "",
+          "img": ""
+        },
         {
           "id": "3",
           "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.",
