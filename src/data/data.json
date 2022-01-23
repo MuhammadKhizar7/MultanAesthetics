@@ -112,20 +112,20 @@
           "description_2": "The beauty of having PRP treatment is that it uses your own blood; it contains no foreign or synthetic chemicals and therefore has no side effects.",
           "points": [
             {
-              "id": "4",
-              "title": "Skilled, experienced medical providers"
-            },
-            {
-              "id": "3",
-              "title": "Clinical Dermatology Research"
+              "id": "1",
+              "title": "7 Years Of Dermatology Experience"
             },
             {
               "id": "2",
               "title": "A Leader In Dermatologic Care"
             },
             {
-              "id": "1",
-              "title": "7 Years Of Dermatology Experience"
+              "id": "3",
+              "title": "Clinical Dermatology Research"
+            },
+            {
+              "id": "4",
+              "title": "Skilled, experienced medical providers"
             }
           ]
         },
