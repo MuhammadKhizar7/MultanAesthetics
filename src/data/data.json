@@ -103,29 +103,25 @@
       "subtitle": "HEALTHY SKIN AND NATURAL",
       "cards": [
         {
-          "id": "1",
+          "id": "3",
           "img": "card_1.jpg",
           "subtitle": "We Provide Service",
-          "title": "PRP for Face",
-          "description": "PRP is a facial rejuvenation treatment that uses your own plasma to stimulate collagen production and cell migration, allowing for the elimination of lines, folds, and wrinkles.",
-          "description_1": "Results from PRP therapy are natural looking and subtle, and they can last for as long as two years.",
-          "description_2": "The beauty of having PRP treatment is that it uses your own blood; it contains no foreign or synthetic chemicals and therefore has no side effects.",
+          "title": "Acne Treatment",
+          "description": "Acne is a skin condition that occurs when your hair follicles become plugged with oil and dead skin cells. It causes whiteheads, blackheads or pimples. Acne is most common among teenagers, though it affects people of all ages.",
+          "description_1": "Acne typically appears on your face, forehead, chest, upper back and shoulders because these areas of skin have the most oil (sebaceous) glands. Hair follicles are connected to oil glands.",
+          "description_2": "Effective acne treatments are available, but acne can be persistent. The pimples and bumps heal slowly, and when one begins to go away, others seem to crop up.",
           "points": [
             {
-              "id": "1",
-              "title": "7 Years Of Dermatology Experience"
+              "id": "3",
+              "title": "Clinical Dermatology Research"
             },
             {
               "id": "2",
               "title": "A Leader In Dermatologic Care"
             },
             {
-              "id": "3",
-              "title": "Clinical Dermatology Research"
-            },
-            {
-              "id": "4",
-              "title": "Skilled, experienced medical providers"
+              "id": "1",
+              "title": "7 Years Of Dermatology Experience"
             }
           ]
         },
@@ -153,25 +149,29 @@
           ]
         },
         {
-          "id": "3",
+          "id": "1",
           "img": "card_1.jpg",
           "subtitle": "We Provide Service",
-          "title": "Acne Treatment",
-          "description": "Acne is a skin condition that occurs when your hair follicles become plugged with oil and dead skin cells. It causes whiteheads, blackheads or pimples. Acne is most common among teenagers, though it affects people of all ages.",
-          "description_1": "Acne typically appears on your face, forehead, chest, upper back and shoulders because these areas of skin have the most oil (sebaceous) glands. Hair follicles are connected to oil glands.",
-          "description_2": "Effective acne treatments are available, but acne can be persistent. The pimples and bumps heal slowly, and when one begins to go away, others seem to crop up.",
+          "title": "PRP for Face",
+          "description": "PRP is a facial rejuvenation treatment that uses your own plasma to stimulate collagen production and cell migration, allowing for the elimination of lines, folds, and wrinkles.",
+          "description_1": "Results from PRP therapy are natural looking and subtle, and they can last for as long as two years.",
+          "description_2": "The beauty of having PRP treatment is that it uses your own blood; it contains no foreign or synthetic chemicals and therefore has no side effects.",
           "points": [
             {
-              "id": "3",
-              "title": "Clinical Dermatology Research"
+              "id": "1",
+              "title": "7 Years Of Dermatology Experience"
             },
             {
               "id": "2",
               "title": "A Leader In Dermatologic Care"
             },
             {
-              "id": "1",
-              "title": "7 Years Of Dermatology Experience"
+              "id": "3",
+              "title": "Clinical Dermatology Research"
+            },
+            {
+              "id": "4",
+              "title": "Skilled, experienced medical providers"
             }
           ]
         }
