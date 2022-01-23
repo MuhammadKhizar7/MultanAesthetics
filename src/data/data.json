@@ -162,6 +162,10 @@
           "description_2": "Effective acne treatments are available, but acne can be persistent. The pimples and bumps heal slowly, and when one begins to go away, others seem to crop up.",
           "points": [
             {
+              "id": "2",
+              "title": ""
+            },
+            {
               "id": "1",
               "title": "7 Years Of Dermatology Experience"
             }
