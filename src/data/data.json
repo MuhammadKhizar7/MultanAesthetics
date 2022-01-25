@@ -47,9 +47,9 @@
         "img": "home_hero.png"
       },
       "services": {
-        "title": "Care Your Skin,",
-        "subtitle": "Care Your Beauty",
-        "description": "Enter your super app's description here... The key is to find the right length. Don't want it to be too long, but then don't want it to be too short so that it looks weird between the title and button below.",
+        "title": "Dermatologist",
+        "subtitle": "Which Services are Provided by our Dermatologists.",
+        "description": "Our dermatologists use integrative techniques and internal medicine to diagnose a range of dermatological conditions including acne, Chemical peels, Cosmetic injections, Laser surgery, Hair removal or restoration, dermatitis or eczematous conditions, and Skin grafts and flaps.",
         "img": "service_hero.png"
       },
       "contact": {
