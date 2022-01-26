@@ -47,15 +47,15 @@
         "img": "home_hero.png"
       },
       "services": {
-        "title": "Dermatologist",
-        "subtitle": "Which Services are Provided by our Dermatologists.",
+        "title": "Your Passion is our Satisfaction",
+        "subtitle": "Best Service, Right Time, Right People",
         "description": "Our dermatologists use integrative techniques and internal medicine to diagnose a range of dermatological conditions including acne, Chemical peels, Cosmetic injections, Laser surgery, Hair removal or restoration, dermatitis or eczematous conditions, and Skin grafts and flaps.",
         "img": "service_hero.png"
       },
       "contact": {
-        "title": "Contact Us For More Information",
-        "subtitle": "we are waiting to welcome you",
-        "description": "We Provide You The Best Service",
+        "title": "Contact Us",
+        "subtitle": "Highly-trained and reliable dermatologists at your service",
+        "description": "",
         "img": "contact_hero.png"
       },
       "about": {
