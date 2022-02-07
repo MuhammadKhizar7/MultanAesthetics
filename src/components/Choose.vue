@@ -7,7 +7,7 @@
       <h1>{{ choose.title }}</h1>
     </div>
     <div class="mx-auto flex flex-col md:flex-row items-center">
-      <div>
+      <div class="lg:w-1/3">
         <div class="flex  py-5">
           <div>
             <div
@@ -25,7 +25,7 @@
             </p>
           </div>
         </div>
-        <div class="flex  py-5">
+        <div class="flex py-5">
           <div>
             <div
               class="bg-red-500 text-white font-semibold text-2xl break-words w-10 h-10 transform-gpu rotate-45 flex justify-center justify-items-center mr-3 -mb-2"
@@ -46,7 +46,7 @@
       <div class="w-full lg:w-1/3 lg:py-0">
         <g-image :src="require(`!!assets-loader!@images/${choose.img}`)" />
       </div>
-      <div>
+      <div class="lg:w-1/3">
         <div class="flex  py-5">
           <div>
             <div
