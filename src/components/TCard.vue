@@ -1,9 +1,9 @@
 <template>
   <!-- card -->
-  <div class="rounded-lg overflow-hidden shadow">
+  <div class="rounded-lg overflow-hidden shadow bg-white">
     <g-image :src="require(`!!assets-loader!@images/${content.img}`)" />
-    <div class="px-4 py-3 bg-white text-center">
-      <g-link :to="'/services/'+content.id"
+    <div class="px-4 py-3 text-center">
+      <g-link :to="'/services/' + content.id"
         ><h1
           class="text-gray-800 font-semibold text-lg hover:text-red-500 transition duration-300 ease-in-out"
         >
