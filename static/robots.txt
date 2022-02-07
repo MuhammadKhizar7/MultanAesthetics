@@ -1,6 +1,0 @@
-Sitemap: ttps://www.multanaesthetics.com/sitemap.xml
-
-User-agent:*
-Disallow: /
-Disallow: /legal
-Disallow: /privacy
