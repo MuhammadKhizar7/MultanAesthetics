@@ -195,8 +195,8 @@
         },
         {
           "id": "3",
-          "img_first": "assets/static/gallery-2-2.jpg",
-          "img_second": "assets/static/gallery-2-1.jpg",
+          "img_first": "gallery-2-2.jpg",
+          "img_second": "gallery-2-1.jpg",
           "title": "Acne Treatment"
         },
         {
