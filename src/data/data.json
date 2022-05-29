@@ -183,8 +183,8 @@
       "cards": [
         {
           "id": "1",
-          "img_first": "assets/static/gallery-4-1.jpg",
-          "img_second": "assets/static/gallery-4-2.jpg",
+          "img_first": "gallery-4-1.jpg",
+          "img_second": "gallery-4-2.jpg",
           "title": "PRP for Face"
         },
         {
