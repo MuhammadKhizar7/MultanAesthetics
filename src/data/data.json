@@ -15,8 +15,8 @@
       "fb_key": " "
     },
     "contactInfo": {
-      "phone": "(0300) 7736211",
-      "whatsappShow": "(332) 0709526",
+      "phone": "+92300 7736211",
+      "whatsappShow": "+92332 0709526",
       "whatsapp": "+923320709526",
       "email": "Multan.aesthetic@gmail.com",
       "address": "512/C, Multan Aesthetics near Ladies Fatima Jinnah Park (3.75 km) 60000 Multan, Punjab, Pakistan",
@@ -59,7 +59,7 @@
         "img": "contact_hero.png"
       },
       "about": {
-        "title": "Dr Muhammad Kabir",
+        "title": "Dr. Muhammad Kabir",
         "subtitle": "Skin Specialist and Dermatologist",
         "description": "Dr. Muhammad Kabir is one of the most reputed Dermatologist in Pakistan & most visited Skin Specialist in Punjab (Lahore , Multan , Dg khan), who is expert in both, clinical as well as cosmetic dermatology and uses the “Gold Standard” technology for every procedure and all skin types.",
         "img": "about_hero.png"
@@ -104,7 +104,7 @@
       "cards": [
         {
           "id": "3",
-          "img": "card_1.jpg",
+          "img": "accne-treatment.png",
           "subtitle": "We Provide Service",
           "title": "Acne Treatment",
           "description": "Acne is a skin condition that occurs when your hair follicles become plugged with oil and dead skin cells. It causes whiteheads, blackheads or pimples. Acne is most common among teenagers, though it affects people of all ages.",
@@ -127,7 +127,7 @@
         },
         {
           "id": "2",
-          "img": "card_1.jpg",
+          "img": "prp-hair-11.png",
           "subtitle": "We Provide Service",
           "title": "PRP for  Hair",
           "description": "PRP treatment is a three-step process that uses the platelet-rich plasma found in your blood to promote natural hair growth in the scalp. ",
@@ -150,7 +150,7 @@
         },
         {
           "id": "1",
-          "img": "card_1.jpg",
+          "img": "client.jpg",
           "subtitle": "We Provide Service",
           "title": "PRP for Face",
           "description": "PRP is a facial rejuvenation treatment that uses your own plasma to stimulate collagen production and cell migration, allowing for the elimination of lines, folds, and wrinkles.",
@@ -189,14 +189,14 @@
         },
         {
           "id": "2",
-          "img_first": "gallery-6-1.jpg",
-          "img_second": "gallery-6-2.jpg",
+          "img_first": "PRP Hair (1)",
+          "img_second": "PRP Hair (2)",
           "title": "PRP for Hair"
         },
         {
           "id": "3",
-          "img_first": "gallery-9-1.jpg",
-          "img_second": "gallery-9-2.jpg",
+          "img_first": "gallery-2-2.jpg",
+          "img_second": "gallery-2-1.jpg",
           "title": "Acne Treatment"
         },
         {
@@ -210,14 +210,14 @@
     "realResult": {
       "title": "Real results for all Skin and Hair Treatments",
       "subtitle": "VIDEO OF OUR TREATMENTS",
-      "description": "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.",
-      "phoneNumber": "(233) 243 567 3312",
+      "description": "Multan Aesthetics dermatologists are experts in performing a wide range of treatments and procedures to treat the health, function and beauty of skin throughout every stage of life. They are the premier medical specialists trained to treat skin and soft tissue in both medically necessary and cosmetic surgical and non-surgical methods.",
+      "phoneNumber": "+92300-7736211",
       "videoId": "klZNNUz4wPQ",
       "img": "result.jpg"
     },
     "clientReviews": {
       "title": "Care Your Skin,",
-      "subtitle": "Benefits",
+      "subtitle": "Client Reviews",
       "reviews": [
         {
           "id": "3",
