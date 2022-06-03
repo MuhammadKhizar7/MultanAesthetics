@@ -4,18 +4,13 @@
       <div class="col-span-2 p-5 md:ml-10">
         <div class="flex">
           <div>
-            <!-- <svg
-              xmlns="http://www.w3.org/2000/svg"
+            <g-image
+              class="w-full h-full"
               width="70"
               height="70"
-              viewBox="0 0 94 88"
-            >
-              <g id="Logo" fill="#fff" stroke="#707070" stroke-width="1">
-                <ellipse cx="47" cy="44" rx="47" ry="44" stroke="none" />
-                <ellipse cx="47" cy="44" rx="46.5" ry="43.5" fill="none" />
-              </g>
-                  < /svg> -->
-            <g-image class="w-full h-full" src="~/assets/images/logo.svg" />
+              src="~/assets/images/logo.png"
+              alt="multanesthetics logo"
+            />
             <!-- <img src="~/assets/images/logo.svg" alt="multanesthetics logo" /> -->
           </div>
           <h1 class="font-bold text-3xl p-2">

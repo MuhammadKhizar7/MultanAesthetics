@@ -6,7 +6,15 @@
       <g-link
         class=" text-red-500 text-base xl:text-xl no-underline hover:no-underline font-extrabold font-sans"
         to="/"
-        >{{ $static.metadata.siteName }}</g-link
+      >
+        <g-image
+          class="pt-2 inline-block"
+          width="50"
+          height="50"
+          src="~/assets/images/logo.png"
+          alt="multanesthetics logo"
+        />
+        {{ $static.metadata.siteName }}</g-link
       >
     </div>
 
