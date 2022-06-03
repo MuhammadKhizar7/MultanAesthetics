@@ -198,6 +198,12 @@
           "img_first": "gallery-2-2.jpg",
           "img_second": "gallery-2-1.jpg",
           "title": "Acne Treatment"
+        },
+        {
+          "id": "4",
+          "img_first": "gallery-9-1.jpg",
+          "img_second": "gallery-9-2.jpg",
+          "title": "Fue Hair Transplant"
         }
       ]
     },
