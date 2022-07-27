@@ -18,18 +18,16 @@
         </div>
       </div>
     </div>
-    <compare></compare>
     <real-result></real-result>
   </Layout>
 </template>
 
 <script>
-import Compare from '../components/Compare.vue'
 import ContactCard from '../components/ContactCard.vue'
 import Hero from '../components/Hero.vue'
 import RealResult from '../components/RealResult.vue'
 export default {
-  components: { Hero, ContactCard, Compare, RealResult },
+  components: { Hero, ContactCard, RealResult },
   data: function() {
     return {
       contact: null,

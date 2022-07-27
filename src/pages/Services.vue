@@ -2,21 +2,17 @@
   <Layout>
     <hero :content="heroServices" :whatsapp="whatsapp"></hero>
     <service :content="services"></service>
-    <testiomonial></testiomonial>
-    <compare></compare>
     <real-result></real-result>
   </Layout>
 </template>
 
 <script>
-import Compare from '../components/Compare.vue'
 import Hero from '../components/Hero.vue'
 import RealResult from '../components/RealResult.vue'
 import Service from '../components/Service.vue'
-import Testiomonial from '../components/Testiomonial.vue'
 export default {
   name: 'services',
-  components: { Hero, Service, Compare, RealResult, Testiomonial },
+  components: { Hero, Service, RealResult },
   data: function() {
     return {
       heroServices: null,

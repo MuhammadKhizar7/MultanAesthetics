@@ -4,18 +4,16 @@
     <about-clinic :content="aboutClinic"></about-clinic>
     <about-doctor :content="aboutDoctor"></about-doctor>
     <testiomonial></testiomonial>
-    <compare></compare>
   </Layout>
 </template>
 
 <script>
 import AboutClinic from '../components/AboutClinic.vue'
 import AboutDoctor from '../components/AboutDoctor.vue'
-import Compare from '../components/Compare.vue'
 import Hero from '../components/Hero.vue'
 import Testiomonial from '../components/Testiomonial.vue'
 export default {
-  components: { Hero, AboutClinic, AboutDoctor, Testiomonial, Compare },
+  components: { Hero, AboutClinic, AboutDoctor, Testiomonial },
   metaInfo: {
     title: 'About us',
   },

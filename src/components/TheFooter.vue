@@ -1,13 +1,11 @@
 <template>
   <div class="bg-black text-white pt-10">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-10 p-10">
+    <div class="grid grid-cols-2 md:grid-cols-4 md:gap-10 md:p-10 p-4">
       <div class="col-span-2 p-5 md:ml-10">
-        <div class="flex">
-          <div>
+        <div class="flex flex-wrap sm:flex-nowrap">
+          <div class="mx-auto sm:mx-0">
             <g-image
-              class="w-full h-full"
-              width="70"
-              height="70"
+              class="w-20 h-20"
               src="~/assets/images/logo.png"
               alt="multanesthetics logo"
             />
@@ -17,7 +15,7 @@
             {{ webInfo.name }}
           </h1>
         </div>
-        <div class="flex ml-20 space-x-4">
+        <div class="flex ml-16 gap-x-5">
           <a :href="webInfo.fb" target="_black">
             <svg
               xmlns="http://www.w3.org/2000/svg"
