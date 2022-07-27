@@ -15,6 +15,7 @@
             marginheight="0"
             marginwidth="0"
           ></iframe>
+          <p>{{ encodeMapUrl }}</p>
         </div>
       </div>
     </div>
@@ -40,10 +41,9 @@ export default {
   },
   computed: {
     encodeMapUrl: function() {
-      let map = `https://maps.google.com/maps?q=${
-        this.contact.address
-      }&t=&z=13&ie=UTF8&iwloc=&output=embed`
-
+      let map = `https://maps.google.com/maps?q=${this.contact.address
+        .replace('(3.75 km) 60000 ', '')
+        .replace(', Punjab, Pakistan', '')}&t=&z=13&ie=UTF8&iwloc=&output=embed`
       return encodeURI(map)
     },
   },
