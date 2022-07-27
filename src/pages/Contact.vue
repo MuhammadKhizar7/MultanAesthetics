@@ -15,7 +15,6 @@
             marginheight="0"
             marginwidth="0"
           ></iframe>
-          <p>{{ encodeMapUrl }}</p>
         </div>
       </div>
     </div>
