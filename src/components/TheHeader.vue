@@ -5,6 +5,7 @@
     <div class="mb-2 sm:mb-0 inner">
       <g-link
         class=" text-red-500 text-base xl:text-xl no-underline hover:no-underline font-extrabold font-sans"
+        exact
         to="/"
       >
         <g-image
@@ -31,14 +32,14 @@
         exact
         active-class="text-red-500"
         class="text-gray-500 text-base xl:text-xl no-underline hover:no-underline font-medium font-sans"
-        to="/services"
+        to="/services/"
         >Services</g-link
       >
       <g-link
         exact
         active-class="text-red-500"
         class="text-gray-500 text-base xl:text-xl no-underline hover:no-underline font-medium font-sans"
-        to="/gallery"
+        to="/gallery/"
         >Gallery</g-link
       >
       <g-link
